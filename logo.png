@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Da Silva Building Construction Ltd | Premium Builders in Watford</title>
+  <meta name="description" content="Da Silva Building Construction Ltd – Expert builders in Watford offering full renovations, bathroom refurbishments, landscaping, and construction. Rated 5★ by our clients." />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#2C3E50" />
+  <meta property="og:title" content="Da Silva Building Construction Ltd" />
+  <meta property="og:description" content="Premium building and construction services in Watford. 5★ rated. Full renovations, bathrooms, landscaping and more." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/dasilva3.jpg" />
+  <link rel="canonical" href="https://dasilvabuilding.co.uk/" />
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ════════════════ COOKIE BANNER ════════════════ -->
+  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Cookie consent">
+    <div class="cookie-inner">
+      <div class="cookie-text">
+        <span class="cookie-icon">&#127850;</span>
+        <p>We use cookies to enhance your experience and analyse site performance. <a href="#footer">Learn more</a>.</p>
+      </div>
+      <div class="cookie-actions">
+        <button id="cookie-decline" class="btn-cookie btn-cookie--outline">Decline All</button>
+        <button id="cookie-accept" class="btn-cookie btn-cookie--fill">Accept All</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════════════ NAVIGATION ════════════════ -->
+  <header id="site-header" class="site-header" role="banner">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#hero" class="nav__logo" aria-label="Da Silva Building Construction home">
+        <img src="assets/images/logo.png" alt="Da Silva Building Construction logo" class="nav__logo-img" width="44" height="44" />
+        <div class="logo-text">
+          <strong>Da Silva</strong>
+          <em>Building Construction Ltd</em>
+        </div>
+      </a>
+      <ul class="nav__links" id="nav-links" role="list">
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#testimonials" class="nav__link">Reviews</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Get a Quote</a></li>
+      </ul>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ════════════════ HERO ════════════════ -->
+    <section id="hero" class="hero" aria-label="Hero section">
+      <div class="hero__bg">
+        <img src="assets/images/dasilva3.jpg" alt="Beautifully illuminated premium decking and garden designed by Da Silva Building Construction" class="hero__img" loading="eager" />
+        <div class="hero__overlay"></div>
+      </div>
+      <div class="hero__shapes" aria-hidden="true">
+        <div class="shape shape--ring-lg"></div>
+        <div class="shape shape--ring-sm"></div>
+        <div class="shape shape--dot"></div>
+      </div>
+      <div class="hero__content container">
+        <div class="hero__badge reveal">
+          <img src="assets/images/logo.png" alt="" aria-hidden="true" class="badge-logo" />
+          <span>5.0 &#9733; &mdash; Rated Excellent on Google</span>
+        </div>
+        <h1 class="hero__headline reveal reveal--delay-1">
+          Building<br/>
+          <em class="accent">Watford&rsquo;s</em><br/>
+          Finest Spaces
+        </h1>
+        <p class="hero__sub reveal reveal--delay-2">
+          Premium construction &amp; renovation services delivered with precision, pride and professionalism.
+          <br/>Full renovations &middot; Bathrooms &middot; Landscaping &middot; Extensions &middot; Commercial
+        </p>
+        <div class="hero__ctas reveal reveal--delay-3">
+          <a href="#contact" class="btn btn--primary">Get a Free Quote</a>
+          <a href="#projects" class="btn btn--ghost">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            View Our Work
+          </a>
+        </div>
+        <div class="hero__trust reveal reveal--delay-4">
+          <div class="trust-item">
+            <span class="trust-num">15+</span>
+            <span class="trust-label">Five-Star Reviews</span>
+          </div>
+          <div class="trust-sep" aria-hidden="true"></div>
+          <div class="trust-item">
+            <span class="trust-num">10+</span>
+            <span class="trust-label">Years Experience</span>
+          </div>
+          <div class="trust-sep" aria-hidden="true"></div>
+          <div class="trust-item">
+            <span class="trust-num">100%</span>
+            <span class="trust-label">Satisfaction Rate</span>
+          </div>
+        </div>
+      </div>
+      <a href="#services" class="hero__scroll" aria-label="Scroll to services">
+        <span class="hero__scroll-line"></span>
+        <span class="hero__scroll-text">Scroll</span>
+      </a>
+    </section>
+
+    <!-- ════════════════ SERVICES ════════════════ -->
+    <section id="services" class="services section" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">What We Do</span>
+          <h2 id="services-heading" class="section-title">Expert Services,<br/>Exceptional Results</h2>
+          <p class="section-sub">From single rooms to full builds &mdash; every project is handled with the same high standard of craft and care.</p>
+        </div>
+        <div class="services__grid">
+          <article class="service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="18" width="36" height="24" rx="2" stroke="currentColor" stroke-width="2.5"/><path d="M2 18L24 4L46 18" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><rect x="18" y="28" width="12" height="14" rx="1" stroke="currentColor" stroke-width="2.5"/></svg>
+            </div>
+            <h3 class="service-card__title">Full Home Renovations</h3>
+            <p class="service-card__desc">Complete interior and exterior transformations. We project-manage every detail from planning through to the final finish.</p>
+            <span class="service-card__arrow" aria-hidden="true">&#8594;</span>
+          </article>
+          <article class="service-card reveal reveal--delay-1">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="20" width="32" height="22" rx="2" stroke="currentColor" stroke-width="2.5"/><path d="M14 20V14a10 10 0 0 1 20 0v6" stroke="currentColor" stroke-width="2.5"/><circle cx="24" cy="31" r="3" stroke="currentColor" stroke-width="2.5"/></svg>
+            </div>
+            <h3 class="service-card__title">Bathroom Refurbishments</h3>
+            <p class="service-card__desc">Bespoke bathroom design and installation &mdash; new plumbing, tiling, premium fixtures and wet room conversions.</p>
+            <span class="service-card__arrow" aria-hidden="true">&#8594;</span>
+          </article>
+          <article class="service-card reveal reveal--delay-2">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M4 36c4-8 10-12 20-8s16 0 20-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M8 44c4-8 10-12 20-8s14-2 16-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="36" cy="12" r="4" stroke="currentColor" stroke-width="2.5"/><path d="M36 16v8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="service-card__title">Landscaping &amp; Decking</h3>
+            <p class="service-card__desc">Stunning outdoor spaces with premium decking, patios, feature lighting and water features tailored to your lifestyle.</p>
+            <span class="service-card__arrow" aria-hidden="true">&#8594;</span>
+          </article>
+          <article class="service-card reveal reveal--delay-3">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="6" width="16" height="16" rx="2" stroke="currentColor" stroke-width="2.5"/><rect x="26" y="6" width="16" height="16" rx="2" stroke="currentColor" stroke-width="2.5"/><rect x="6" y="26" width="16" height="16" rx="2" stroke="currentColor" stroke-width="2.5"/><rect x="26" y="26" width="16" height="16" rx="2" stroke="currentColor" stroke-width="2.5"/></svg>
+            </div>
+            <h3 class="service-card__title">Commercial Fit-Outs</h3>
+            <p class="service-card__desc">Office and retail fit-outs delivered on time and budget &mdash; partitioning, flooring, ceilings and full strip-outs.</p>
+            <span class="service-card__arrow" aria-hidden="true">&#8594;</span>
+          </article>
+          <article class="service-card reveal reveal--delay-1">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M10 38V22l14-14 14 14v16" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><rect x="18" y="28" width="12" height="10" rx="1" stroke="currentColor" stroke-width="2.5"/><path d="M4 38h40" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="service-card__title">Extensions &amp; New Builds</h3>
+            <p class="service-card__desc">Single and double-storey extensions, loft conversions and ground-up new builds with full project management.</p>
+            <span class="service-card__arrow" aria-hidden="true">&#8594;</span>
+          </article>
+          <article class="service-card reveal reveal--delay-2">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2.5"/><path d="M24 14v10l6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="service-card__title">Maintenance &amp; Repairs</h3>
+            <p class="service-card__desc">Reliable ongoing maintenance, emergency repairs and property upkeep for residential and commercial clients.</p>
+            <span class="service-card__arrow" aria-hidden="true">&#8594;</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════ ABOUT ════════════════ -->
+    <section id="about" class="about section" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__images reveal">
+            <div class="about__img-stack">
+              <div class="about__img-main">
+                <img src="assets/images/dasilva1.jpg" alt="Newly renovated brick residential property by Da Silva Building Construction" loading="lazy" />
+              </div>
+              <div class="about__img-accent">
+                <img src="assets/images/dasilva2.jpg" alt="Commercial office space fit-out completed by the Da Silva team" loading="lazy" />
+              </div>
+              <div class="about__img-badge" aria-label="5 star Google rating">
+                <img src="assets/images/logo.png" alt="" aria-hidden="true" class="badge-logo-img" />
+                <span class="badge-stars" aria-label="Five stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="badge-label">5.0 Google Rating</span>
+              </div>
+            </div>
+          </div>
+          <div class="about__content">
+            <div class="section-header section-header--left reveal">
+              <span class="section-tag">About Us</span>
+              <h2 id="about-heading" class="section-title">Built on Trust,<br/>Delivered with Pride</h2>
+            </div>
+            <p class="about__lead reveal reveal--delay-1">
+              Da Silva Building Construction Ltd is a trusted name in the Watford area, known for exceptional craftsmanship and a client-first approach that turns visions into outstanding spaces.
+            </p>
+            <p class="about__body reveal reveal--delay-2">
+              Led by Leo Da Silva, our team brings dedication, skill, and meticulous attention to detail to every project &mdash; whether a full home renovation, a stunning bathroom refurb, or a large-scale commercial fit-out. We&rsquo;re transparent, professional, and genuinely passionate about what we build.
+            </p>
+            <ul class="about__features reveal reveal--delay-3" role="list">
+              <li class="about__feature"><span class="feature-check" aria-hidden="true">&#10003;</span><span>Fully insured and industry compliant</span></li>
+              <li class="about__feature"><span class="feature-check" aria-hidden="true">&#10003;</span><span>Transparent pricing &mdash; no hidden fees</span></li>
+              <li class="about__feature"><span class="feature-check" aria-hidden="true">&#10003;</span><span>On-time, on-budget delivery guaranteed</span></li>
+              <li class="about__feature"><span class="feature-check" aria-hidden="true">&#10003;</span><span>Local Watford team &mdash; fast response times</span></li>
+            </ul>
+            <a href="#contact" class="btn btn--primary reveal reveal--delay-4">Start Your Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════ PROJECTS ════════════════ -->
+    <section id="projects" class="projects section" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Our Work</span>
+          <h2 id="projects-heading" class="section-title">Recent Projects</h2>
+          <p class="section-sub">A selection of completed projects we&rsquo;re proud to showcase across Watford and surrounding areas.</p>
+        </div>
+        <div class="projects__grid">
+          <article class="project-card project-card--large reveal">
+            <div class="project-card__img">
+              <img src="assets/images/dasilva3.jpg" alt="Illuminated premium decking with LED step lighting, gazebo and pond feature" loading="lazy" />
+              <div class="project-card__overlay">
+                <span class="project-tag">Landscaping</span>
+                <h3>Premium Deck &amp; Garden Design</h3>
+                <p>Watford Residential</p>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal reveal--delay-1">
+            <div class="project-card__img">
+              <img src="assets/images/dasilva1.jpg" alt="Fully renovated brick residential property with new windows and front garden" loading="lazy" />
+              <div class="project-card__overlay">
+                <span class="project-tag">Renovation</span>
+                <h3>Full Property Renovation</h3>
+                <p>Watford Residential</p>
+              </div>
+            </div>
+          </article>
+          <article class="project-card reveal reveal--delay-2">
+            <div class="project-card__img">
+              <img src="assets/images/dasilva2.jpg" alt="Open plan commercial office fit-out with partitions and new flooring" loading="lazy" />
+              <div class="project-card__overlay">
+                <span class="project-tag">Commercial</span>
+                <h3>Office Fit-Out &amp; Refurb</h3>
+                <p>Commercial Client</p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="projects__cta reveal">
+          <p>Want to see more? Get in touch for our full project portfolio.</p>
+          <a href="#contact" class="btn btn--outline">Request Full Portfolio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════ TESTIMONIALS ════════════════ -->
+    <section id="testimonials" class="testimonials section" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Client Reviews</span>
+          <h2 id="testimonials-heading" class="section-title">What Our Clients Say</h2>
+          <div class="rating-summary reveal reveal--delay-1">
+            <span class="rating-stars" aria-label="Five stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            <span class="rating-score">5.0</span>
+            <span class="rating-count">from 15 Google reviews</span>
+          </div>
+        </div>
+        <div class="testimonials__slider">
+          <div class="testimonials__track" id="testimonials-track" role="list">
+            <article class="testimonial-card" role="listitem">
+              <div class="testimonial-card__stars" aria-label="Five stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote class="testimonial-card__quote">&ldquo;I cannot recommend Da Silva Building Construction Ltd highly enough. From the very beginning, the team was professional, approachable, and incredibly knowledgeable. They truly went above and beyond my expectations at every stage.&rdquo;</blockquote>
+              <footer class="testimonial-card__author">
+                <div class="author-avatar" aria-hidden="true">WS</div>
+                <div><cite class="author-name">Whitney Shobanjo</cite><span class="author-meta">Google Review &middot; 3 weeks ago</span></div>
+              </footer>
+            </article>
+            <article class="testimonial-card" role="listitem">
+              <div class="testimonial-card__stars" aria-label="Five stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote class="testimonial-card__quote">&ldquo;Leo from Da Silva has just completed the refurb on my bathroom. Couldn&rsquo;t be happier with the end result. Professional throughout, reasonably priced, and the quality of work is excellent. I would highly recommend them.&rdquo;</blockquote>
+              <footer class="testimonial-card__author">
+                <div class="author-avatar" aria-hidden="true">CB</div>
+                <div><cite class="author-name">Chris Browne</cite><span class="author-meta">Google Review &middot; 1 year ago</span></div>
+              </footer>
+            </article>
+            <article class="testimonial-card" role="listitem">
+              <div class="testimonial-card__stars" aria-label="Five stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote class="testimonial-card__quote">&ldquo;Leo and his team recently completed the full renovation of our house. The work was done efficiently and professionally, and it looks fantastic. The whole process was smooth from start to finish.&rdquo;</blockquote>
+              <footer class="testimonial-card__author">
+                <div class="author-avatar" aria-hidden="true">BA</div>
+                <div><cite class="author-name">Biju Abraham</cite><span class="author-meta">Google Review &middot; 2 years ago</span></div>
+              </footer>
+            </article>
+            <article class="testimonial-card" role="listitem">
+              <div class="testimonial-card__stars" aria-label="Five stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote class="testimonial-card__quote">&ldquo;Extremely professional, organised, and very easy to work with. Communication was excellent throughout and the finished result surpassed what I&rsquo;d imagined. Will definitely use Da Silva again.&rdquo;</blockquote>
+              <footer class="testimonial-card__author">
+                <div class="author-avatar" aria-hidden="true">MJ</div>
+                <div><cite class="author-name">Marcus J.</cite><span class="author-meta">Google Review &middot; 8 months ago</span></div>
+              </footer>
+            </article>
+          </div>
+        </div>
+        <div class="testimonials__nav" aria-label="Testimonials navigation">
+          <button class="testi-nav" id="testi-prev" aria-label="Previous testimonial">&#8592;</button>
+          <div class="testi-dots" id="testi-dots" role="tablist" aria-label="Testimonial page indicators"></div>
+          <button class="testi-nav" id="testi-next" aria-label="Next testimonial">&#8594;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════ CONTACT ════════════════ -->
+    <section id="contact" class="contact section" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact__grid">
+          <div class="contact__info">
+            <div class="section-header section-header--left reveal">
+              <span class="section-tag">Get In Touch</span>
+              <h2 id="contact-heading" class="section-title">Let&rsquo;s Build<br/>Something Great</h2>
+            </div>
+            <p class="contact__intro reveal reveal--delay-1">
+              Ready to start your project? Get a free, no-obligation quote. We respond to all enquiries within 24 hours.
+            </p>
+            <ul class="contact__details reveal reveal--delay-2" role="list">
+              <li class="contact__detail">
+                <span class="contact__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.3h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6.06 6.06l1.06-1.06a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </span>
+                <div>
+                  <span class="contact__detail-label">Phone</span>
+                  <a href="tel:07875700497" class="contact__detail-value">07875 700497</a>
+                </div>
+              </li>
+              <li class="contact__detail">
+                <span class="contact__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </span>
+                <div>
+                  <span class="contact__detail-label">Email</span>
+                  <a href="mailto:dasilvabuildingandconstruction@gmail.com" class="contact__detail-value">dasilvabuildingandconstruction@gmail.com</a>
+                </div>
+              </li>
+              <li class="contact__detail">
+                <span class="contact__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </span>
+                <div>
+                  <span class="contact__detail-label">Based in</span>
+                  <span class="contact__detail-value">40 Otley Way, Watford, WD19 7TB</span>
+                </div>
+              </li>
+              <li class="contact__detail">
+                <span class="contact__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </span>
+                <div>
+                  <span class="contact__detail-label">Hours</span>
+                  <span class="contact__detail-value">Mon &ndash; Sat &middot; 7:00am &ndash; 6:00pm</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact__form-wrap reveal reveal--delay-1">
+            <div class="form-header">
+              <h3>Request a Free Quote</h3>
+              <p>We&rsquo;ll get back to you within 24 hours.</p>
+            </div>
+            <form id="contact-form" class="contact__form" novalidate aria-label="Contact enquiry form">
+              <input type="hidden" name="access_key" value="a24ee4b4-4897-4e82-b581-b88295c581d7" />
+              <input type="hidden" name="subject" value="New Quote Request - Da Silva Building Construction" />
+              <input type="hidden" name="from_name" value="Da Silva Website" />
+              <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
+
+              <div class="form-group">
+                <label for="cf-name" class="form-label">Full Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="cf-name" name="name" class="form-input" placeholder="Your full name" required autocomplete="name" />
+                <span class="form-error" role="alert"></span>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="cf-email" class="form-label">Email Address <span aria-hidden="true">*</span></label>
+                  <input type="email" id="cf-email" name="email" class="form-input" placeholder="you@email.com" required autocomplete="email" />
+                  <span class="form-error" role="alert"></span>
+                </div>
+                <div class="form-group">
+                  <label for="cf-phone" class="form-label">Phone Number</label>
+                  <input type="tel" id="cf-phone" name="phone" class="form-input" placeholder="07xxx xxxxxx" autocomplete="tel" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="cf-service" class="form-label">Service Required <span aria-hidden="true">*</span></label>
+                <select id="cf-service" name="service" class="form-input form-select" required>
+                  <option value="" disabled selected>Select a service&hellip;</option>
+                  <option value="Full Home Renovation">Full Home Renovation</option>
+                  <option value="Bathroom Refurbishment">Bathroom Refurbishment</option>
+                  <option value="Landscaping and Decking">Landscaping &amp; Decking</option>
+                  <option value="Commercial Fit-Out">Commercial Fit-Out</option>
+                  <option value="Extension or New Build">Extension / New Build</option>
+                  <option value="Maintenance and Repairs">Maintenance &amp; Repairs</option>
+                  <option value="Other">Other</option>
+                </select>
+                <span class="form-error" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="cf-message" class="form-label">Project Details <span aria-hidden="true">*</span></label>
+                <textarea id="cf-message" name="message" class="form-input form-textarea" placeholder="Tell us about your project &mdash; timescale, budget range, specific requirements&hellip;" required rows="5"></textarea>
+                <span class="form-error" role="alert"></span>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--full" id="form-submit">
+                <span class="btn-text">Send My Enquiry</span>
+                <span class="btn-loader" aria-hidden="true"></span>
+              </button>
+
+              <div id="form-success" class="form-feedback form-feedback--success" role="alert" aria-live="polite" hidden>
+                &#10003; Thank you! We&rsquo;ll be in touch within 24 hours.
+              </div>
+              <div id="form-error-msg" class="form-feedback form-feedback--error" role="alert" aria-live="polite" hidden>
+                &#10005; Something went wrong. Please call us on <a href="tel:07875700497">07875 700497</a>.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ════════════════ FOOTER ════════════════ -->
+  <footer class="site-footer" id="footer" role="contentinfo">
+    <div class="footer__top">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__brand">
+            <a href="#hero" class="footer__logo" aria-label="Back to top">
+              <img src="assets/images/logo.png" alt="Da Silva Building Construction logo" width="52" height="52" />
+              <div class="logo-text">
+                <strong>Da Silva</strong>
+                <em>Building Construction Ltd</em>
+              </div>
+            </a>
+            <p class="footer__tagline">Building with integrity.<br/>Delivering with pride.</p>
+            <p class="footer__stars" aria-label="5.0 star Google rating">&#9733;&#9733;&#9733;&#9733;&#9733; <span>5.0 on Google</span></p>
+          </div>
+          <div class="footer__nav">
+            <h3 class="footer__nav-title">Services</h3>
+            <ul role="list">
+              <li><a href="#services">Full Home Renovations</a></li>
+              <li><a href="#services">Bathroom Refurbishments</a></li>
+              <li><a href="#services">Landscaping &amp; Decking</a></li>
+              <li><a href="#services">Commercial Fit-Outs</a></li>
+              <li><a href="#services">Extensions &amp; New Builds</a></li>
+              <li><a href="#services">Maintenance &amp; Repairs</a></li>
+            </ul>
+          </div>
+          <div class="footer__nav">
+            <h3 class="footer__nav-title">Company</h3>
+            <ul role="list">
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#projects">Our Work</a></li>
+              <li><a href="#testimonials">Client Reviews</a></li>
+              <li><a href="#contact">Get a Quote</a></li>
+            </ul>
+          </div>
+          <div class="footer__contact-col">
+            <h3 class="footer__nav-title">Contact Us</h3>
+            <address>
+              <p><a href="tel:07875700497">&#128222; 07875 700497</a></p>
+              <p><a href="mailto:dasilvabuildingandconstruction@gmail.com">&#9993; dasilvabuildingandconstruction@gmail.com</a></p>
+              <p>&#128205; 40 Otley Way, Watford, WD19 7TB</p>
+              <p>&#128336; Mon &ndash; Sat &middot; 7am &ndash; 6pm</p>
+            </address>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p class="footer__copy">&copy; <span id="footer-year"></span> Da Silva Building Construction Ltd. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#footer">Privacy Policy</a>
+          <a href="#footer">Terms &amp; Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
